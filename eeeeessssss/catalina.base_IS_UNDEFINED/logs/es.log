@@ -1,0 +1,193 @@
+2018-04-28 10:05:53,951 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Starting EeeeessssssApplication on WUKN-PC with PID 15508 (D:\worktest\wukainian\eeeeessssss\target\classes started by wukn in D:\worktest\wukainian\eeeeessssss)
+2018-04-28 10:05:53,965 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - No active profile set, falling back to default profiles: default
+2018-04-28 10:05:54,100 [main] INFO  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext].log - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4678a2eb: startup date [Sat Apr 28 10:05:54 CST 2018]; root of context hierarchy
+2018-04-28 10:05:55,728 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:05:55,776 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SkuRepository.
+2018-04-28 10:05:55,782 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SpuRepository.
+2018-04-28 10:05:55,785 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.UserJpa.
+2018-04-28 10:05:55,826 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:05:56,517 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker].log - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1532a582] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 10:05:56,980 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat initialized with port(s): 8081 (http)
+2018-04-28 10:05:56,998 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:05:57,015 [main] INFO  [org.apache.catalina.core.StandardService].log - Starting service [Tomcat]
+2018-04-28 10:05:57,016 [main] INFO  [org.apache.catalina.core.StandardEngine].log - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 10:05:57,022 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-04-28 10:05:57,022 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-04-28 10:05:57,023 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-04-28 10:05:58,096 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-04-28 10:05:58,230 [localhost-startStop-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]].log - Initializing Spring embedded WebApplicationContext
+2018-04-28 10:05:58,230 [localhost-startStop-1] INFO  [o.s.web.context.ContextLoader].log - Root WebApplicationContext: initialization completed in 4130 ms
+2018-04-28 10:05:58,410 [localhost-startStop-1] INFO  [o.s.b.w.servlet.ServletRegistrationBean].log - Servlet dispatcherServlet mapped to [/]
+2018-04-28 10:05:58,425 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 10:05:58,425 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 10:05:58,425 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 10:05:58,425 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 10:05:58,683 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:05:59,066 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Starting...
+2018-04-28 10:05:59,269 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Start completed.
+2018-04-28 10:06:00,302 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:06:03,101 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:06:03,446 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter].log - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4678a2eb: startup date [Sat Apr 28 10:05:54 CST 2018]; root of context hierarchy
+2018-04-28 10:06:03,492 [main] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration].log - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-28 10:06:03,543 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/delete],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.deleteIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:06:03,544 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/update],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.updateIndex(java.lang.String,java.lang.String,java.lang.String,com.example.eeeeessssss.pojo.User) throws java.lang.Exception
+2018-04-28 10:06:03,545 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/build],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.buildIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:06:03,545 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/save],methods=[GET]}" onto private com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.esSave(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:06:03,546 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/query],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.eeeeessssss.controller.EsIndexController.queryIndex(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:06:03,547 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/query/all],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsQueryController.queryAll(java.lang.String)
+2018-04-28 10:06:03,549 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/sku/find/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SkuController.findAll()
+2018-04-28 10:06:03,550 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/spu/selsct/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SpuController.findAllSpu()
+2018-04-28 10:06:03,551 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/find],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findUserby(java.lang.String)
+2018-04-28 10:06:03,552 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/es],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findSex(int)
+2018-04-28 10:06:03,552 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/findsex],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findBySex(int)
+2018-04-28 10:06:03,554 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 10:06:03,555 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 10:06:03,592 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:06:03,592 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:06:03,982 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Registering beans for JMX exposure on startup
+2018-04-28 10:06:03,985 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-28 10:06:03,992 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-28 10:06:04,006 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:06:04,007 [main] INFO  [o.apache.tomcat.util.net.NioSelectorPool].log - Using a shared selector for servlet write/read
+2018-04-28 10:06:04,025 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-28 10:06:04,028 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Started EeeeessssssApplication in 11.334 seconds (JVM running for 13.67)
+2018-04-28 10:16:35,485 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Starting EeeeessssssApplication on WUKN-PC with PID 21672 (D:\worktest\wukainian\eeeeessssss\target\classes started by wukn in D:\worktest\wukainian\eeeeessssss)
+2018-04-28 10:16:35,489 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - No active profile set, falling back to default profiles: default
+2018-04-28 10:16:35,570 [main] INFO  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext].log - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@339bf286: startup date [Sat Apr 28 10:16:35 CST 2018]; root of context hierarchy
+2018-04-28 10:16:36,691 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:16:36,731 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SkuRepository.
+2018-04-28 10:16:36,734 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SpuRepository.
+2018-04-28 10:16:36,735 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.UserJpa.
+2018-04-28 10:16:36,767 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:16:37,331 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker].log - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8840d3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 10:16:37,713 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat initialized with port(s): 8081 (http)
+2018-04-28 10:16:37,729 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:16:37,742 [main] INFO  [org.apache.catalina.core.StandardService].log - Starting service [Tomcat]
+2018-04-28 10:16:37,743 [main] INFO  [org.apache.catalina.core.StandardEngine].log - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 10:16:37,750 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-04-28 10:16:37,751 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-04-28 10:16:37,751 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-04-28 10:16:38,844 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-04-28 10:16:39,014 [localhost-startStop-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]].log - Initializing Spring embedded WebApplicationContext
+2018-04-28 10:16:39,016 [localhost-startStop-1] INFO  [o.s.web.context.ContextLoader].log - Root WebApplicationContext: initialization completed in 3446 ms
+2018-04-28 10:16:39,223 [localhost-startStop-1] INFO  [o.s.b.w.servlet.ServletRegistrationBean].log - Servlet dispatcherServlet mapped to [/]
+2018-04-28 10:16:39,237 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 10:16:39,240 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 10:16:39,241 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 10:16:39,244 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 10:16:39,495 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:16:39,766 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Starting...
+2018-04-28 10:16:39,951 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Start completed.
+2018-04-28 10:16:41,246 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:16:44,965 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:16:45,586 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter].log - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@339bf286: startup date [Sat Apr 28 10:16:35 CST 2018]; root of context hierarchy
+2018-04-28 10:16:45,626 [main] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration].log - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-28 10:16:45,672 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/update],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.updateIndex(java.lang.String,java.lang.String,java.lang.String,com.example.eeeeessssss.pojo.User) throws java.lang.Exception
+2018-04-28 10:16:45,674 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/delete],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.deleteIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:16:45,675 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/build],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.buildIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:16:45,675 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/query],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.eeeeessssss.controller.EsIndexController.queryIndex(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:16:45,676 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/save],methods=[GET]}" onto private com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.esSave(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:16:45,677 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/query/all],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsQueryController.queryAll(java.lang.String)
+2018-04-28 10:16:45,679 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/sku/find/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SkuController.findAll()
+2018-04-28 10:16:45,680 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/spu/selsct/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SpuController.findAllSpu()
+2018-04-28 10:16:45,682 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/find],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findUserby(java.lang.String)
+2018-04-28 10:16:45,682 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/findsex],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findBySex(int)
+2018-04-28 10:16:45,684 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/es],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findSex(int)
+2018-04-28 10:16:45,686 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 10:16:45,687 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 10:16:45,724 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:16:45,724 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:16:46,079 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Registering beans for JMX exposure on startup
+2018-04-28 10:16:46,081 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-28 10:16:46,088 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-28 10:16:46,100 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:16:46,102 [main] INFO  [o.apache.tomcat.util.net.NioSelectorPool].log - Using a shared selector for servlet write/read
+2018-04-28 10:16:46,125 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-28 10:16:46,128 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Started EeeeessssssApplication in 12.479 seconds (JVM running for 14.436)
+2018-04-28 10:25:38,787 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Starting EeeeessssssApplication on WUKN-PC with PID 17896 (D:\worktest\wukainian\eeeeessssss\target\classes started by wukn in D:\worktest\wukainian\eeeeessssss)
+2018-04-28 10:25:38,795 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - No active profile set, falling back to default profiles: default
+2018-04-28 10:25:38,887 [main] INFO  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext].log - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3829ac1: startup date [Sat Apr 28 10:25:38 CST 2018]; root of context hierarchy
+2018-04-28 10:25:39,952 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:25:39,984 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SkuRepository.
+2018-04-28 10:25:39,987 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.SpuRepository.
+2018-04-28 10:25:39,989 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport].isStrictRepositoryCandidate - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.eeeeessssss.repository.UserJpa.
+2018-04-28 10:25:40,024 [main] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate].multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-28 10:25:40,868 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker].log - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32321e74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-28 10:25:41,379 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat initialized with port(s): 8081 (http)
+2018-04-28 10:25:41,393 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:25:41,406 [main] INFO  [org.apache.catalina.core.StandardService].log - Starting service [Tomcat]
+2018-04-28 10:25:41,407 [main] INFO  [org.apache.catalina.core.StandardEngine].log - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-28 10:25:41,414 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2018-04-28 10:25:41,414 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-04-28 10:25:41,414 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-04-28 10:25:42,508 [localhost-startStop-1] INFO  [o.a.catalina.core.AprLifecycleListener].log - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2018-04-28 10:25:42,656 [localhost-startStop-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]].log - Initializing Spring embedded WebApplicationContext
+2018-04-28 10:25:42,657 [localhost-startStop-1] INFO  [o.s.web.context.ContextLoader].log - Root WebApplicationContext: initialization completed in 3769 ms
+2018-04-28 10:25:42,835 [localhost-startStop-1] INFO  [o.s.b.w.servlet.ServletRegistrationBean].log - Servlet dispatcherServlet mapped to [/]
+2018-04-28 10:25:42,843 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-28 10:25:42,844 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-28 10:25:42,844 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-28 10:25:42,844 [localhost-startStop-1] INFO  [o.s.b.web.servlet.FilterRegistrationBean].log - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-28 10:25:43,057 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:25:43,318 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Starting...
+2018-04-28 10:25:43,508 [main] INFO  [com.zaxxer.hikari.HikariDataSource].getConnection - HikariPool-1 - Start completed.
+2018-04-28 10:25:44,297 [main] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean].log - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-28 10:25:46,834 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:25:47,151 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerAdapter].log - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3829ac1: startup date [Sat Apr 28 10:25:38 CST 2018]; root of context hierarchy
+2018-04-28 10:25:47,191 [main] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration].log - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-28 10:25:47,237 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/update],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.updateIndex(java.lang.String,java.lang.String,java.lang.String,com.example.eeeeessssss.pojo.User) throws java.lang.Exception
+2018-04-28 10:25:47,239 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/delete],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.deleteIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:25:47,239 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/save],methods=[GET]}" onto private com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsIndexController.esSave(java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:25:47,240 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/build],methods=[GET]}" onto public java.lang.String com.example.eeeeessssss.controller.EsIndexController.buildIndex(java.lang.String) throws java.lang.Exception
+2018-04-28 10:25:47,240 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/es/query],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.eeeeessssss.controller.EsIndexController.queryIndex(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2018-04-28 10:25:47,241 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/query/all],methods=[GET]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.EsQueryController.queryAll(java.lang.String)
+2018-04-28 10:25:47,245 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/sku/find/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SkuController.findAll()
+2018-04-28 10:25:47,246 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/spu/selsct/all],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.SpuController.findAllSpu()
+2018-04-28 10:25:47,248 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/es],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findSex(int)
+2018-04-28 10:25:47,248 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/find],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findUserby(java.lang.String)
+2018-04-28 10:25:47,249 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/user/findsex],methods=[POST]}" onto public com.example.eeeeessssss.response.ResultClient com.example.eeeeessssss.controller.UserController.findBySex(int)
+2018-04-28 10:25:47,251 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-28 10:25:47,252 [main] INFO  [o.s.w.s.m.m.a.RequestMappingHandlerMapping].log - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-28 10:25:47,285 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:25:47,285 [main] INFO  [o.s.w.s.handler.SimpleUrlHandlerMapping].log - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-28 10:25:47,626 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Registering beans for JMX exposure on startup
+2018-04-28 10:25:47,628 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-28 10:25:47,634 [main] INFO  [o.s.j.e.a.AnnotationMBeanExporter].log - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-28 10:25:47,646 [main] INFO  [o.apache.coyote.http11.Http11NioProtocol].log - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-28 10:25:47,647 [main] INFO  [o.apache.tomcat.util.net.NioSelectorPool].log - Using a shared selector for servlet write/read
+2018-04-28 10:25:47,673 [main] INFO  [o.s.b.w.embedded.tomcat.TomcatWebServer].log - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-28 10:25:47,676 [main] INFO  [c.e.eeeeessssss.EeeeessssssApplication].log - Started EeeeessssssApplication in 10.491 seconds (JVM running for 12.422)
+2018-04-28 10:26:01,235 [http-nio-8081-exec-2] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-28 10:26:01,236 [http-nio-8081-exec-2] INFO  [o.s.web.servlet.DispatcherServlet].log - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-28 10:26:01,261 [http-nio-8081-exec-2] INFO  [o.s.web.servlet.DispatcherServlet].log - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-04-28 10:26:01,308 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 集群名称{}(clusterName-->)elasticsearch
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 数据节点的总数{}(numberOfDataNodes-->)1
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 节点总数{}(numberOfNodes)1
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}index.kibana
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)1
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,309 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,310 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexmy_index
+2018-04-28 10:26:01,310 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,310 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,310 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,310 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexspu
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexwkn
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,311 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexindex_entity
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexsku
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,312 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,313 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
+2018-04-28 10:26:01,313 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 所有名称{}indexuser_index
+2018-04-28 10:26:01,313 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 碎片数量{}(numberOfShards-->)5
+2018-04-28 10:26:01,313 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 复制品数量{}(numberOfReplicas-->)1
+2018-04-28 10:26:01,314 [http-nio-8081-exec-2] INFO  [c.e.eeeeessssss.service.EsQueryService].clusterHealth - 索引状态{}(status-->)YELLOW
