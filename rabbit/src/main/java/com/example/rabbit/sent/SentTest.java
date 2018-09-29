@@ -38,6 +38,6 @@ public class SentTest {
         String json = JSON.toJSONString( user );
         String context = "mesage---->"+i;
         System.out.println("！！！ " + context);
-        this.rabbitTemplate.convertAndSend(QUEUE_NAME, json);
+        this.rabbitTemplate.convertAndSend(QUEUE_NAME, user);
     }
 }
