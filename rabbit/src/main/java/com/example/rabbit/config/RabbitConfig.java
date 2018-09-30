@@ -17,6 +17,12 @@ public class RabbitConfig {
     @Value( "${QUEUE_NAME}" )
     private String QUEUE_NAME;
 
+    /**
+     * 队列名称
+     */
+    @Value( "${QUEUE_NAME1}" )
+    private String QUEUE_NAME1;
+
 
     /**
      * 队列

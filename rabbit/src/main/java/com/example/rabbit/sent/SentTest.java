@@ -26,6 +26,12 @@ public class SentTest {
     @Value( "${QUEUE_NAME}" )
     private String QUEUE_NAME;
 
+    /**
+     * 队列名称
+     */
+    @Value( "${QUEUE_NAME1}" )
+    private String QUEUE_NAME1;
+
     public void send() throws Exception{
         String context = "开始生产消息 " + new Date();
         this.rabbitTemplate.convertAndSend(context);
@@ -36,8 +42,9 @@ public class SentTest {
         //生产的消息
         User user = new User( 156,"sd" );
         String json = JSON.toJSONString( user );
-        String context = "mesage---->"+i;
+        String context = "生产者----mesage---->"+i;
         System.out.println("！！！ " + context);
-        this.rabbitTemplate.convertAndSend(QUEUE_NAME, user);
+        this.rabbitTemplate.convertAndSend(QUEUE_NAME, json);
+        this.rabbitTemplate.convertAndSend(QUEUE_NAME1, json);
     }
 }
